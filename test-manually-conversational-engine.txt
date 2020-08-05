@@ -1,0 +1,2 @@
+to run the conversational engine for manual tests execute the following command in a shell:
+java -cp lib/Ab.jar Main bot=en
