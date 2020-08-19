@@ -1,0 +1,3 @@
+[submodule "pepperspeechrecognition"]
+	path = pepperspeechrecognition
+	url = https://github.com/igor-lirussi/pepperspeechrecognition
