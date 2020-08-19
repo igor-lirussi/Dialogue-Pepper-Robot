@@ -2,12 +2,20 @@
 
 The code aims to give Pepper basic conversation abilities, this includes a speech recognition module, a conversational engine to formulate the answers and the speech synthesis. The dialogue is purpose-less, this means that no task is pursued except a normal and pleasant interaction (this is the objective). It can be used as a fall-back system also for a task oriented interaction, often the counterpart tends to ramble or to test the IQ of the robot asking general questions.
 
+## Installation
+With git bash you have to clone, possibly with SSH, the repository with the following command. <br>
+**Pay attention to clone also the submodules with the --recurse-submodules or some parts of the project will miss**
+```
+git clone --recurse-submodules git@gits-15.sys.kth.se:SoRoKTH/Dialogue-Pepper.git
+```
 
 ## Setup
 Just control the [Dependencies](#dependencies), create an Anaconda environment or check in your system if everything is installed.
 
+
+## Run
 **Follow the steps in the notebook [Dialogue-Pepper.ipynb](Dialogue-Pepper.ipynb)** and
-REMEMBER TO TURN ON THE RECOGNITION SERVICE with a shell in the speech-recognition folder. <br> Use python 2.7, or activate the Anaconda environment, and run the service:
+REMEMBER TO TURN ON THE RECOGNITION SERVICE with a shell in the speech-recognition folder. If the folder is empty probably you didn't clone with the submodules commands. <br> Use python 2.7, or activate the Anaconda environment, and run the service:
  ```
 python module_speechrecognition.py --pip (your robot IP)
 ```
