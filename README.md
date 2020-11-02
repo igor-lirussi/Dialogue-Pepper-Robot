@@ -6,7 +6,7 @@ The code aims to give Pepper basic conversation abilities, this includes a speec
 With git bash you have to clone, possibly with SSH, the repository with the following command. <br>
 **Pay attention to clone also the submodules with the --recurse-submodules or some parts of the project will miss**
 ```
-git clone --recurse-submodules git@gits-15.sys.kth.se:SoRoKTH/Dialogue-Pepper.git
+git clone --recurse-submodules <repo_link>
 ```
 
 ## Setup
@@ -25,18 +25,21 @@ everything you need should already be installed, simply clone the pepperspeechre
 python module_speechrecognition.py
 ```
 
-
-
+## Run conversational engine locally
+to run the conversational engine for manual tests execute the following command in a shell:
+```
+java -cp lib/Ab.jar Main bot=en
+```
 ## Dependencies <a class="anchor" id="dependencies"></a>
-The Speech Synthesis works with
+The __Speech Synthesis__ works with
 * **Python 2.7** ,  because it uses
 * [Pepper API (NAOqi 2.5) ](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
 
 
-The Conversational Engine works with
+The __Conversational Engine__ works with
 * **Java** (because no AIML-2.0 systems in Python 2 were found)
 
-The Speech Recognition module was built to be able to run ON Pepper computer (in the head) it's only dependencies are
+The __Speech Recognition__ module was built to be able to run ON Pepper computer (in the head) it's only dependencies are
 * **Python 2.7** ,  because it uses
 * [Pepper API (NAOqi 2.5) ](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
 * **numpy**
