@@ -24,10 +24,12 @@ everything you need should already be installed, simply clone the pepperspeechre
  ```
 python module_speechrecognition.py
 ```
+## Video of the Result
+[![Pepper Dialogue](http://i3.ytimg.com/vi/wBcfLlm5Hnc/maxresdefault.jpg)](https://youtu.be/wBcfLlm5Hnc "Pepper Dialogue Video")
 
 ## Run conversational engine locally
 to run the conversational engine for manual tests execute the following command in a shell:
-```
+ ```
 java -cp lib/Ab.jar Main bot=en
 ```
 ## Dependencies <a class="anchor" id="dependencies"></a>
