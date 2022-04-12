@@ -48,6 +48,11 @@ The __Speech Recognition__ module was built to be able to run ON Pepper computer
 
 All of them are pre-installed on Pepper, if you want to run on your computer just create an environment that has all them.
 
+## Errors you might encounter
+java.io.FileNotFoundException: Dialogue-Pepper-Robot/bots/en/aimlif/xyz.aiml.csv (No such file or directory)
+(Ab.jar) is looking for .csv files, these should be generated automatically from the .aiml They are simply a faster less-readable copy of the originals. (so they are not included in the repo)
+-simply create a folder "aimlif" next to the "aiml" one-
+
 ## Built With
 
 * Python 2.7.18
