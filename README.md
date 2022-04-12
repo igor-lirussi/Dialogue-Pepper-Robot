@@ -50,7 +50,10 @@ All of them are pre-installed on Pepper, if you want to run on your computer jus
 
 ## Errors you might encounter
 java.io.FileNotFoundException: Dialogue-Pepper-Robot/bots/en/aimlif/xyz.aiml.csv (No such file or directory)
-(Ab.jar) is looking for .csv files, these should be generated automatically from the .aiml They are simply a faster less-readable copy of the originals. (so they are not included in the repo)
+
+(Ab.jar) is looking for .csv files, these should be generated automatically from the .aiml files.
+They are simply a faster less-readable copy of the originals. (so they are not included in the repo)
+
 -simply create a folder "aimlif" next to the "aiml" one-
 
 ## Built With
