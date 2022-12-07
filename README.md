@@ -32,12 +32,13 @@ source activate python2
 - Obtain and note down the IP Address outloud
 - **Your computer must be on the same network of the robot**
 - Insert the IP Address in a browser, the default creadentials for the robot are username: "nao" and password: "nao", now you are connected to the robot settings interface.
-- Connect to a WiFi network if you want to operate without cable, reboot, obtain the new <robot-IP-Address>.
+- Connect to a WiFi network if you want to operate without cable, reboot, obtain the new robot-IP-Address.
 
 
 ## Run
 In the python2 environment, **Run and follow the steps in the notebook [Dialogue-Pepper.ipynb](Dialogue-Pepper.ipynb)** <br>
-REMEMBER TO TURN ON THE RECOGNITION SERVICE with a shell in the speech-recognition folder.
+#### Note
+REMEMBER TO TURN ON THE SPEECH RECOGNITION SERVICE, in parallel with the notebook, with a shell in the speech-recognition folder.
 If the folder is empty probably you didn't clone with the submodules commands. <br> 
 Use python 2.7, or activate the Anaconda environment with: *conda activate python2* , and run the service in the folder:
 ```
