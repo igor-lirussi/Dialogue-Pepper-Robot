@@ -23,7 +23,7 @@ Or create an Anaconda environment with Python2 and Jupyter Notebook:
 conda create -n python2 python=2.7 anaconda ipykernel
 source activate python2
 ```
-- Download the [Pepper SDK (NAOqi 2.5) ](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
+- Download the [Pepper SDK (NAOqi Python SDK) ](https://github.com/igor-lirussi/pepperspeechrecognition/releases/tag/PyNaoQi_SDK)
 - Create an Environment Variable called `PYTHONPATH` and set it to `path\to\python-sdk\lib`
 
 ### Robot Setup
