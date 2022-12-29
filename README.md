@@ -23,7 +23,7 @@ Or create an Anaconda environment with Python2 and Jupyter Notebook:
 conda create -n python2 python=2.7 anaconda ipykernel
 source activate python2
 ```
-- Download the [Pepper SDK (NAOqi Python SDK) ](https://github.com/igor-lirussi/pepperspeechrecognition/releases/tag/PyNaoQi_SDK)
+- Download the [NAOqi Python SDK](https://github.com/igor-lirussi/pepperspeechrecognition/releases/tag/PyNaoQi_SDK)
 - Create an Environment Variable called `PYTHONPATH` and set it to `path\to\python-sdk\lib`
 
 ### Robot Setup
@@ -59,7 +59,7 @@ java -cp lib/Ab.jar Main bot=en
 ## Dependencies <a class="anchor" id="dependencies"></a>
 The __Speech Recognition__ module was built to be able to run **ON** Robot computer (in the head) so, if you run it on your computer, it's only dependencies are:
 * **Python 2.7** ,  because it uses
-* [Pepper API (NAOqi 2.5)](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
+* [Pepper API (NAOqi SDK)](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
 * **numpy**
 
 The __Conversational Engine__ works with:
@@ -67,7 +67,7 @@ The __Conversational Engine__ works with:
 
 The __Speech Synthesis__ runs in the robot and works with:
 * **Python 2.7** ,  because it uses
-* [Pepper API (NAOqi 2.5)](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
+* [Pepper API (NAOqi SDK)](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/naoqi-apis)
 
 All of them are pre-installed on the robot, if you want to run on your computer the speech recognition just create an environment that has all them, the one created with Anaconda should be fine.
 
